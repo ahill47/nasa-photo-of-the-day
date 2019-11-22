@@ -32,11 +32,11 @@ const Picture = () => {
       <img
         src={picUrl}
         alt="Nasa astronomy pic of the day"
-        style={{ width: "60%", height: "300px" }}
+        style={{ width: "60%", height: "300px",  }}
       />
       <p style={{ color: "Black", "fontWeight": "bold" }}>{title}</p>
-      <p style={{ color: "Black", "width": "90%", "margin": "auto", "fontSize": "1rem" }}>{explain}</p>
+      <p style={{ color: "Black", "width": "60%", "margin": "auto", "fontSize": "1rem" }}>{explain}</p>
     </div>
   );
 };
-export default Picture;
+export default Picture; 

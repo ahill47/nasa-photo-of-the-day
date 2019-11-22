@@ -1,7 +1,14 @@
 import React from 'react';
+import styled from 'styled-components'
+
+const Heading=styled.h1`
+color: Black;
+fontSize:4rem;
+`;
 
 function Header(){
-    return <h1 style={{color: "Black", fontSize: "3rem"}}>Nasa Photo Of The Day</h1>;
+    return <Heading> Nasa Photo Of The Day  </Heading>;
+           
 };
 
 export default Header;
